@@ -1,0 +1,18 @@
+{
+  "name": "@shujaapay/paywall-js",
+  "version": "1.0.0",
+  "description": "ShujaaPay Web Monetization & Content Lock Paywall Widget",
+  "main": "shujaapay-monetize.js",
+  "files": [
+    "shujaapay-monetize.js"
+  ],
+  "keywords": [
+    "shujaapay",
+    "web-monetization",
+    "paywall",
+    "micropayments",
+    "ilp",
+    "interledger"
+  ],
+  "license": "MIT"
+}
