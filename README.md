@@ -1,6 +1,6 @@
 # ShujaaPay Web Monetization & Paywall JS
 
-A simple, zero-dependency JavaScript widget that allows content creators and web platforms to lock premium content (videos, articles, downloads, or custom page elements) and unlock them instantly via micropayments (M-Pesa STK Push or Stablecoins).
+A simple, zero-dependency JavaScript widget that allows content creators and web platforms to lock premium content (videos, articles, downloads, or custom page elements) and unlock them instantly via micropayments (Mobile Money STK Push or Stablecoins).
 
 ## Quick Start (CDN / Direct Embed)
 

@@ -725,7 +725,7 @@
 
         <div class="sp-methods-title">Payment Option</div>
         <select class="sp-method-select" id="sp-methods-select">
-          <option value="mpesa">M-Pesa (KE)</option>
+          <option value="mpesa">Mobile Money (KE)</option>
           <option value="wallet">ShujaaPay Wallet [TESTNET]</option>
           <option value="usdc">USDC Stablecoin [TESTNET]</option>
         </select>
@@ -773,7 +773,7 @@
 
       <div class="sp-methods-title">Select Method</div>
       <select class="sp-method-select" id="sp-methods-select-drawer" style="margin-bottom:12px; padding:10px; font-size:13px;">
-        <option value="mpesa">M-Pesa (KE)</option>
+        <option value="mpesa">Mobile Money (KE)</option>
         <option value="wallet">ShujaaPay Wallet [TESTNET]</option>
         <option value="usdc">USDC Stablecoin [TESTNET]</option>
       </select>
@@ -859,7 +859,7 @@
       stkMockEl.innerHTML = `
         <div class="sp-stk-header">
           <span>SIM Toolkit</span>
-          <span>M-Pesa</span>
+          <span>Mobile Money</span>
         </div>
         <div class="sp-stk-body">
           <div id="sp-stk-prompt-text" style="font-weight: 500; font-size: 11px; color: #334155; word-wrap: break-word;">Pay KES 1.00 to Creator?</div>
@@ -995,7 +995,7 @@
     const isMobileMoney = selectedMethod === 'mpesa' || selectedMethod === 'airtel' || selectedMethod === 'mtn' || selectedMethod === 'vodafone';
     phoneInput.style.display = isMobileMoney ? 'block' : 'none';
     if (selectedMethod === 'mpesa') {
-      phoneInput.placeholder = 'M-Pesa Phone (254XXXXXXXXX)';
+      phoneInput.placeholder = 'Safaricom Phone (254XXXXXXXXX)';
     } else {
       phoneInput.placeholder = 'Mobile Money Phone (254XXXXXXXXX)';
     }
