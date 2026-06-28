@@ -1124,7 +1124,7 @@
         hasPaid = true;
         buttonEl.style.background = '#10b981';
         buttonEl.style.color = '#0f172a';
-        buttonEl.innerHTML = `Ô£ô Payment Verified`;
+        buttonEl.innerHTML = `✓ Payment Verified`;
         setTimeout(() => {
           closePaywall();
         }, 1500);
@@ -1155,7 +1155,7 @@
                 hasPaid = true;
                 buttonEl.style.background = '#10b981';
                 buttonEl.style.color = '#0f172a';
-                buttonEl.innerHTML = `Ô£ô Payment Verified`;
+                buttonEl.innerHTML = `✓ Payment Verified`;
                 setTimeout(() => {
                   closePaywall();
                 }, 1500);
